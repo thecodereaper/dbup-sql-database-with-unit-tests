@@ -1,0 +1,1 @@
+exec tSQLt.NewTestClass 'Role';

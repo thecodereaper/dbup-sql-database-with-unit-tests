@@ -1,4 +1,4 @@
-create or alter procedure Role.[test check primary key constraint]
+create or alter procedure Role.[test that primary key constraint exists]
 as
 begin
 

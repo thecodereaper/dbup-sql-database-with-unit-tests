@@ -8,7 +8,7 @@ begin
 	declare @ConstraintName nvarchar(max) = N'PK_Role';
 	declare @ColumnName nvarchar(10) = N'Id';
 	declare @Exists bit = 0;
-	declare @Message nvarchar(max) = 'PK_Role exists on table auth.Role.';
+	declare @Message nvarchar(max) = 'PK_Role does not exist on table auth.Role.';
 
 	if exists
 		(
